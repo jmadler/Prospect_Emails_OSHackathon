@@ -1,15 +1,14 @@
 set -exuo pipefail
 COLOR=grey
-HEADER_TEXT="Notifications for Bandolier"
+HEADER_TEXT="Notifications for Sephora: Cart Abandonment"
 PUSH_NOTIF_HEADER="We\'re saving this for you!"
 PUSH_NOTIF_MSG="You\'re one step away.  Don\'t forget to checkout!"
-PUSH_NOTIF_HOST="bandolierstyle.com"
-URL_TEXT="bandolierstyle.com"
-DASHBOARD_IMAGE=dash.jpg
+PUSH_NOTIF_HOST="sephora.com"
+URL_TEXT="sephora.com"
+DASHBOARD_IMAGE=dash-rev.jpg
 SCREENSHOT_IMAGE=shot.jpg
 PUSH_NOTIF_IMAGE=icon.jpg
 
-BASE_IMAGE=base.jpg
 BROWSER_IMAGE=browser.jpg
 PUSH_IMAGE=push.jpg
 PUSH_TGT=+550+150
